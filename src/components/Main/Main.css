@@ -1,0 +1,68 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    align-items: center;
+}
+.red{
+    width: 18%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 19px;
+}
+.red .g-icon{
+    margin-top: 3px;
+}
+.green{
+    width: 50%;
+    align-items: center;
+    position: relative;
+}
+.green input{
+    width: 100%;
+    background: #EAF1FB;
+    border: 1px solid #bbb0;
+    padding: 19px 70px;
+    border-radius: 10px;
+}
+.green input:focus-visible {
+    outline: 1px solid #ddd;
+    background: #fff;
+}
+.green search:focus-visible {
+    outline: none;
+}
+.yellow{
+    width: 28%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+}
+.bar3, .search, .adjust, .question, .setting, .user, .bar3{
+    width: 27px;
+    height: 27px;
+}
+.search-btn{
+    position: absolute;
+    top: 7%;
+    left: 10px;
+}
+.search-btn:hover, .adjust-btn:hover, .bar-btn:hover{
+    background: #bbbbbb54;
+}
+.adjust-btn{
+    position: absolute;
+    top: 7%;
+    right: 10px;
+}
+.search-btn, .adjust-btn, .question-btn, .setting-btn, .user, .bar-btn{
+    border: none;
+    background: #bbb0;
+    border-radius: 28px;
+    width: 47px;
+    height: 47px;
+}

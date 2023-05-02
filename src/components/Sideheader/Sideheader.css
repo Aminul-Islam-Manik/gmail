@@ -1,0 +1,11 @@
+.inbox-icon{
+    width: 27px;
+    height: 27px;
+}
+.side-header{
+    padding-left: 21px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
