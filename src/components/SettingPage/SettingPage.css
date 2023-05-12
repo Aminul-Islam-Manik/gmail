@@ -1,0 +1,19 @@
+.headerPage{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:20px;
+    border-bottom: 1px solid #bbb;
+    margin-bottom: 20px;
+}
+.headerPage li:hover{
+    border-bottom: 1px solid blue;
+}
+
+
+
+
+
+
+
+

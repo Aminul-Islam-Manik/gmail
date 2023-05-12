@@ -1,13 +1,14 @@
-import React from 'react';
+
 import Sidebar from '../Sidebar/Sidebar';
 import Content from '../Content/Content';
 import './Body.css';
 
-const Body = () => {
+
+const Body = ({isVisible, toggleVisibility}) => {
     return (
         <div className='body'>
             <Sidebar></Sidebar>
-            <Content></Content>
+            <Content isVisible={isVisible} toggleVisibility={toggleVisibility}></Content>
         </div>
     );
 };

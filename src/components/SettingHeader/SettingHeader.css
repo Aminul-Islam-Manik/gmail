@@ -1,0 +1,8 @@
+.setting-nav li{
+    list-style: none;
+    padding: 13px 0;
+}
+.setting-nav :first-child:active{
+    border-bottom: 1px solid blue;
+}
+

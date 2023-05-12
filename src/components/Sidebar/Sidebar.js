@@ -4,9 +4,9 @@ import Sideheader from '../Sideheader/Sideheader';
 
 const Sidebar = () => {
     return (
-        <div className='sidebar'>
+        <aside className='sidebar'>
             <Sideheader></Sideheader>
-        </div>
+        </aside>
     );
 };
 

@@ -1,10 +1,12 @@
-import React from 'react';
 import './Main.css';
 import logo from '../images/logo_gmail.png';
-import { AdjustmentsHorizontalIcon, Bars3Icon, InboxIcon, MagnifyingGlassIcon} from '@heroicons/react/24/solid';
-import { Link } from 'react-router-dom';
+import { AdjustmentsHorizontalIcon, Bars3Icon, MagnifyingGlassIcon} from '@heroicons/react/24/solid';
+// import { Link } from 'react-router-dom';
+import Yellow from '../Yellow/Yellow';
 
-const Main = () => {
+
+const Main = ({toggleVisibility}) => {
+
     return (
         <div>
             <div className='main'>
@@ -20,15 +22,7 @@ const Main = () => {
                     <button className='adjust-btn'><AdjustmentsHorizontalIcon className='adjust'></AdjustmentsHorizontalIcon></button>
                 </div>
                 <div className="yellow">
-                    <div className='flex'>
-                        <Link to='./settings'><InboxIcon className='inbox-icon'></InboxIcon></Link>
-                    </div>
-                    <div className='flex'>
-                        <Link to='./starred'><InboxIcon className='inbox-icon'></InboxIcon></Link>
-                    </div>
-                    <div className='flex'>
-                        <Link to='./snoozed'><InboxIcon className='inbox-icon'></InboxIcon></Link>
-                    </div>
+                    <Yellow toggleVisibility={toggleVisibility}></Yellow>
                 </div>
             </div>
         </div>
